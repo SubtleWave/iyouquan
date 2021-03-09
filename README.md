@@ -18,9 +18,7 @@ https://iyouquan.capelabs.cn/
 
 ### 1. 配置
 
-将项目文件放到路径 **nginx文件夹/nginx-1.18.0 / html/ 项目文件** 中，目录的样子是这样的：
-
-![Image text](https://iyouquan.capelabs.cn/filebrowser/files/mallhtml/static/img/menu.png)
+将项目文件放到路径 **nginx文件夹/nginx-1.18.0 / html/ 项目文件** 中。
 
 ### 2. 运行
 
