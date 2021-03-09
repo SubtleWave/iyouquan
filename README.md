@@ -20,12 +20,14 @@ https://iyouquan.capelabs.cn/
 
 将项目文件放到路径 **nginx文件夹/nginx-1.18.0 / html/ 项目文件** 中，目录的样子是这样的：
 
-![目录](https://iyouquan.capelabs.cn/filebrowser/files/mallhtml/static/img/menu.png)
+![Image text](https://iyouquan.capelabs.cn/filebrowser/files/mallhtml/static/img/menu.png)
 
 ### 2. 运行
 
-直接在浏览器中 输入网址 _http://localhost/_ 即可。
+直接在浏览器中 输入网址 **http://localhost/** 即可。
 
 ## 联系我们
 
-项目处于刚发布阶段，会有一些不太成熟的地方，希望有想法的朋友提出宝贵的意见与建议，请联系我们： 16601220987 同vx 或者 647622951(qq群)
+项目处于刚发布阶段，会有一些不太成熟的地方，希望有想法的朋友提出宝贵的意见与建议。
+
+请联系我们： 16601220987（同vx） 或者 647622951(qq群)
