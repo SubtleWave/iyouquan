@@ -10,15 +10,17 @@ https://iyouquan.capelabs.cn/
 
 ## 使用文档
 
-> 该项目本地运行依托于<b>nginx<b>,请参考以下说明进行安装和运行：
+该项目本地运行依托于 **nginx** ， 请参考以下说明进行安装和运行：
 
 ### 0. 安装
 
-下载<b>nginx<b> [参考地址](http://nginx.org/en/download.html)
+下载 **nginx** [参考地址](http://nginx.org/en/download.html)
 
 ### 1. 配置
 
-将项目文件放到路径 ' 下载的nginx文件夹/nginx-1.18.0 / html/ 项目文件' 中，目录的样子是这样的：
+将项目文件放到路径 _下载的nginx文件夹/nginx-1.18.0 / html/ 项目文件_ 中，目录的样子是这样的：
+
+![路径](https://iyouquan.capelabs.cn/filebrowser/files/mallhtml/static/img/menu.png)
 
 ### 2. 运行
 
