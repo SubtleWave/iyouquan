@@ -14,7 +14,7 @@ https://iyouquan.capelabs.cn/
 
 ### 0. 安装
 
-下载 **nginx** [参考地址](http://nginx.org/en/download.html)
+下载 **nginx** [参考地址](http://nginx.org/en/download.html)，下载完成直接解压即可。
 
 ### 1. 配置
 
