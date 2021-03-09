@@ -14,21 +14,11 @@ https://iyouquan.capelabs.cn/
 
 ### 0. 安装
 
-<<<<<<< HEAD
-下载 **nginx** [参考地址](http://nginx.org/en/download.html)
-
-### 1. 配置
-
-将项目文件放到路径 **nginx文件夹/nginx-1.18.0 / html/ 项目文件** 中，目录的样子是这样的：
-
-![Image text](https://iyouquan.capelabs.cn/filebrowser/files/mallhtml/static/img/menu.png)
-=======
 下载 **nginx** [参考地址](http://nginx.org/en/download.html)，下载完成直接解压即可。
 
 ### 1. 配置
 
 将项目文件放到路径 **nginx文件夹/nginx-1.18.0 / html/ 项目文件** 中。
->>>>>>> 3aadf61590551d30719ea3ea99598ebdb9050f0e
 
 ### 2. 运行
 
