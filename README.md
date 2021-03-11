@@ -10,6 +10,31 @@ https://iyouquan.capelabs.cn/
 
 ## 使用说明
 
+## 后端说明
+litemall 为后端项目
+依赖工具：idea,maven,mysql,solr,redis
+sql文件下为 数据库初始脚本（自带300套模板 此模板仅供学习使用，不可商用）
+### 0. 初始化数据库
+建立 **litemall** 数据库
+### 1.数据库配置
+litemall\litemall-db\src\main\resources\application-db.yml 
+### 2.solr 以及 redis配置
+litemall\litemall-core\src\main\resources\application-core.yml
+
+### 3.启动
+```
+cd litemall
+mvn -DskipTests clean
+mvn -DskipTests install
+cd litemall-all\target
+java -jar litemall-all-0.1.0-exec.jar
+```
+
+
+
+
+
+## 前端说明
 该项目本地运行依托于 **nginx** ， 请参考以下说明进行安装和运行：
 
 ### 0. 安装
@@ -18,7 +43,14 @@ https://iyouquan.capelabs.cn/
 
 ### 1. 配置
 
-将项目文件放到路径 **nginx文件夹/nginx-1.18.0 / html/ 项目文件** 中。
+将dist目录下文件放到路径 **nginx文件夹/nginx-1.18.0 / html/ 项目文件** 中。
+前端接口域名为 https://iyouquan.capelabs.cn/ 可在nginx 中把域名代理为自己的域名
+如果是在本机启动nginx 以及 后端 可修改windows host 
+```
+127.0.0.1 iyouquan.capelabs.cn 
+
+```
+
 
 ### 2. 启动
 
