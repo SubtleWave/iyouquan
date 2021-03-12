@@ -60,6 +60,21 @@ java -jar litemall-all-0.1.0-exec.jar
 
 直接在浏览器中 输入网址 **http://localhost/** 即可。
 
+## 后台管理系统
+https://iyouquan.capelabs.cn/malladmin/#/dashboard
+### 0.nginx下启动
+admindist 文件夹下文件放入 **nginx 下malladmin** 目录中
+
+### 1.本地启动
+node编译 litemall-admin 
+```
+cd litemall-admin
+npm i
+npm run dev
+```
+
+
+
 ## 联系我们
 
 项目处于刚发布阶段，会有一些不太成熟的地方，希望有想法的朋友提出宝贵的意见与建议。
