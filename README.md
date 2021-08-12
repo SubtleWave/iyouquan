@@ -9,6 +9,48 @@
 https://iyouquan.capelabs.cn/
 
 ## 使用说明
+## 只需要跑前端
+
+## 前端说明
+该项目本地运行依托于 **nginx** ， 请参考以下说明进行安装和运行：
+
+### 0. 安装
+
+下载 **nginx** [参考地址](http://nginx.org/en/download.html)，下载完成直接解压即可。
+
+### 1. 配置
+
+将dist目录下文件放到路径 **nginx文件夹/nginx-1.18.0 / html/ 项目文件** 中。
+
+
+
+### 2. 启动
+
+双击 **nginx.exe**，启动nginx。
+
+### 3. 运行
+
+直接在浏览器中 输入网址 **http://localhost/** 即可。
+
+## 后台管理系统
+https://iyouquan.capelabs.cn/malladmin/#/dashboard
+### 0.nginx下启动
+admindist 文件夹下文件放入 **nginx 下malladmin** 目录中
+### 1.配置nginx.conf
+
+```
+   location /malladmin/ {
+                   alias F:/tools/nginx-1.20.1/malladmin/;### 替换为自己的路径
+                   index index.html index.htm;
+                         }
+
+```
+### 2. 运行
+
+直接在浏览器中 输入网址 **http://localhost/malladmin/ 即可。
+
+
+
 
 ## 后端说明
 litemall 为后端项目
@@ -30,50 +72,17 @@ cd litemall-all\target
 java -jar litemall-all-0.1.0-exec.jar
 ```
 
-
-
-
-
-## 前端说明
-该项目本地运行依托于 **nginx** ， 请参考以下说明进行安装和运行：
-
-### 0. 安装
-
-下载 **nginx** [参考地址](http://nginx.org/en/download.html)，下载完成直接解压即可。
-
-### 1. 配置
-
-将dist目录下文件放到路径 **nginx文件夹/nginx-1.18.0 / html/ 项目文件** 中。
-前端接口域名为 https://iyouquan.capelabs.cn/ 可在nginx 中把域名代理为自己的域名
-如果是在本机启动nginx 以及 后端 可修改windows host 
+注意：如果想前后端一起跑的话 需要注意一下几点
+1.前端已经写死了 调用域名是：https://iyouquan.capelabs.cn/ 
+所以需要修改本机hosts 
 ```
 127.0.0.1 iyouquan.capelabs.cn 
 
 ```
 
-
-### 2. 启动
-
-双击 **nginx.exe**，启动nginx。
-
-### 3. 运行
-
-直接在浏览器中 输入网址 **http://localhost/** 即可。
-
-## 后台管理系统
-https://iyouquan.capelabs.cn/malladmin/#/dashboard
-### 0.nginx下启动
-admindist 文件夹下文件放入 **nginx 下malladmin** 目录中
-
-### 1.本地启动
-node编译 litemall-admin 
-```
-cd litemall-admin
-npm i
-npm run dev
-```
-
-
+2.且在nginx 中开启https 配置公私钥，教程如下：
+Windows下Nginx配置SSL实现Https访问（包含证书生成）
+https://www.cnblogs.com/vincent-li666/p/5851463.html
 
 ## 联系我们
 
